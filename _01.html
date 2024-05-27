@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Semántico</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#informacion">Información</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1 id="inicio">¿Qué es el HTML semántico y por qué es importante?</h1>
+  </header>  
+  <article>
+    <p id="Informacion">Un elemento semántico le indica un significado a lo que se está colocando en el documento</p>
+  </article>
+  <article>
+    <p>Etiquetas semánticas agregadas en HTML5:</p>
+    <ul>
+      <li>&lt; article &gt;</li>
+      <li>&lt; aside &gt;</li>   
+      <li>&lt; details &gt;</li>   
+      <li>&lt; figcaption &gt;</li>   
+      <li>&lt; figure &gt;</li>   
+      <li>&lt; footer &gt;</li>   
+      <li>&lt; header &gt;</li>   
+      <li>&lt; main &gt;</li>   
+      <li>&lt; mark &gt;</li>   
+      <li>&lt; nav &gt;</li>   
+      <li>&lt; section &gt;</li>   
+      <li>&lt; sumary &gt;</li>   
+      <li>&lt; time &gt;</li>   
+    </ul>
+  </article>
+  <div>
+    <h2>Cómo funciona el HTML semántico</h2>
+    <p>Indica el tipo de contenido para que el navegador identifique de mejor manera los temas que trata el documento.
+    </p>
+    <p>Y a su vez es mejor para leer del punto de vista del usuario para leer de que tarata cada parrafo o tema.
+    </p>
+
+  </div>
+  <div>
+    <h2>Ejemplos de HTML con etiquetas semánticas</h2>
+    <h3><strong>Variedades de frutas</strong></h3>
+    <section>
+      <section>
+        frutas ácidas
+        <ul>
+          <li>limón</li>
+          <li>uiwi</li>
+          <li>manzana Verde</li>
+          <li>uva verde</li>
+          <li>piña</li>
+        </ul>
+      </section>
+      <section>
+        Frutas dulces
+        <ul>
+          <li>manzana roja</li>
+          <li>sandía</li>
+          <li>mango</li>
+          <li>uva roja</li>
+          <li>plátano</li>
+        </ul>
+      </section>
+    </section>
+    <aside>
+      <p>Países mayores productores de vino en el mundo</p>
+      <ul>
+        <li>Italia</li>
+        <li>Francia</li>
+        <li>España</li>
+      </ul>
+    </aside>
+    <p id="galeria"><img src="https://cdn.pixabay.com/photo/2015/12/30/11/57/fruits-1114060_1280.jpg" alt="canasto de fruta" width="500px"></p>
+
+    <h2>Ejemplos de HTML sin etiquetas semánticas</h2>
+    <h3>Variedades de frutas</h3>
+    <div>
+      <p>Frutas ácidas</p>
+      <ul>
+        <li>limón</li>
+        <li>uiwi</li>
+        <li>manzana Verde</li>
+        <li>uva verde</li>
+        <li>piña</li>
+      </ul>
+    </div>
+    <div>
+      Frutas dulces
+        <ul>
+          <li>manzana roja</li>
+          <li>sandía</li>
+          <li>mango</li>
+          <li>uva roja</li>
+          <li>plátano</li>
+        </ul>
+    </div>
+    <div>
+      <p>Países mayores productores de vino en el mundo</p>
+      <ul>
+        <li>Italia</li>
+        <li>Francia</li>
+        <li>España</li>
+      </ul>
+    </div>
+    <article>
+      <h2>Algunas etiquetas de HTML5 semántico</h2>
+      <ul>
+        <li>nav</li>
+        <li>main</li>
+        <li>section</li>
+        <li>article</li>
+        <li>footer</li>
+      </ul>
+    </article>
+  </div>
+
+  <footer>
+    <p>DEVF</p>
+    <p id="contacto">Contacta a: <a href="mailto:academy@devf.com">
+        academy@devf.com</a>.</p>
+  </footer>
+
+</body>
+</html>
